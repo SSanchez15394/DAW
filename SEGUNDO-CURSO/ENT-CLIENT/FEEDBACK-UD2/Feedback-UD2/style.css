@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    padding: 0%;
+}
+
+td {
+    border: solid 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    flex: auto;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    display: block;
+}
+
+button {
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 190px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#showPairs {
+    background-color: rgb(225, 81, 110);
+}
+
+#showOdd {
+    background-color: cornflowerblue;
+}
+
+#allPictures {
+    background-color: rgb(133, 190, 47);
+}
