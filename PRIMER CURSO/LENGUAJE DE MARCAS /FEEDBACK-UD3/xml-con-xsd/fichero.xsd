@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Bandas_Musicales">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="titulo" type="xsd:string"></xsd:element>
+                <xsd:element name="grupo" type="xsd:string"></xsd:element>
+                <xsd:element name="year" type="xsd:string"></xsd:element>
+                <xsd:element name="single" type="xsd:string"></xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="formato" type="xsd:string"></xsd:attribute>
+            <xsd:attribute name="idioma" type="xsd:string"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
+        

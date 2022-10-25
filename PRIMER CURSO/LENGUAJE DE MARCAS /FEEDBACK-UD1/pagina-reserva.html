@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+    <body>
+        <center><h1>El Portal Restaurante</h1>
+            <!-- La etiqueta <center> no se utiliza debido a que es función de CSS el elegir donde colocar un texto, cambiar fuente, etc -->
+        <nav>
+
+                    
+                <a href="index.html">Presentación</a>   
+                <a href="menu.html">Menús</a>
+                <a href="pagina-reserva.html">Reserva</a>
+        </nav>
+        <hr>
+    
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <fieldset>
+            <legend>Reservar Mesa:</legend>
+    <div>
+        <label for="name">Nombre:</label>
+        <input type="text" name="firstname" id="name">
+    </div>
+    <div>
+        <label for="lastname">Apellidos:</label>
+        <input id="lastname" type="text" name="lastname">
+    </div>
+
+    <div> 
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email">
+    </div>
+    <div>
+        <label for="phone">Teléfono:</label>
+        <input id="phone" type="tel" name="phone">
+    </div>
+
+    <div>
+        <label for="card">N.Tarjeta:</label>
+        <input id="card" type="text" name="card"/>
+    </div>
+    <div>
+        <label for="date">Fecha:</label>
+        <input id="date" type="date" name="date">
+        <label for="time">Hora:</label>
+        <input id="time" type="time" name="time">
+    </div>
+    <div>
+        <label for="comentary">Aviso:</label><br>
+        <textarea id="comentary" rows="5" cols="30" placeholder="Escribe aquí..." name="comentary"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="parking">Parking:</label>
+            <input id="parking" type="checkbox" name="parking">
+            </div><br>
+    <div>Zona:
+        <label for="terraza">Terraza</label>
+            <input id="terraza" type="radio" name="zone" value="terraza">
+            <label for="salon">Sala</label>
+                <input id="salon" type="radio" name="zone" value="sala">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Restablecer">
+    </div>
+    </fieldset>
+    </form>
+        </center>
+    <!-- No se si es una buena práctica dividir en <div> los apartados del formulario o si la gente suele utilizar <br> u otra forma de hacerlo -->
+</body>
+</html>
