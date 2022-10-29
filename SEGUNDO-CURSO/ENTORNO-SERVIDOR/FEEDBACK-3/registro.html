@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback 3 - DES</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- Me he ceñido a lo que pide el enunciado. Lo ideal sería hacerlo con un fichero con JS y otro PHP.
+    Uno que valide primero todos los datos en el front-end y después ya los envíe al back-end.
+    Este último que recoja y gestione todos los datos. Y en caso de haber campos sin rellenar que
+    mantenga los datos ya rellenados por el usuario para que solo escriba en los campos vacíos.
+    -->
+
+<body>
+    <fieldset>
+        <h1>FORMULARIO DE REGISTRO</h1>
+        <form action="./registro.php" method="post" autocomplete="on">
+            <div>
+                <label>Nombre:<br>
+                    <input type="text" name="name" id="name" required><br>
+                </label>
+            </div>
+            <div>
+                <label>Apellidos:<br>
+                    <input type="text" name="lastname" id="lastname" required><br>
+                </label>
+            </div>
+            <div>
+                <label>Teléfono:<br>
+                    <input type="tel" name="tel" id="tel" pattern="[0-9]{9}" required><br>
+                    <!-- Me parece mejor utilizar type="tel" y asignarle expresiones regulares para que no acepte letras.
+                Ya que por ejemplo en un smarthphone/tablet saldrá un teclado númerico a la hora de rellenar el input. 
+                Con type="number" suele aparecer una rueda giratoria bastante incómoda(iPhone).
+                LO IDEAL SERÍA UTILIZAR TAMBIÉN JS. -->
+                </label>
+            </div>
+            <div>
+                <label>Fecha de nacimiento:<br>
+                    <input type="date" name="date" id="date" required><br>
+                </label>
+            </div> 
+            <div>
+                <label>email:<br>
+                    <input type="email" name="mail" id="mail" placeholder="username@example.com"
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                        required><br>
+                </label>
+            </div>
+            <div>
+                <label>Dirección:<br>
+                    <textarea name="address" id="address" cols="35" rows="5" required></textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit" name="submit" id="submit" formtarget="_blank">Enviar</button>
+                <button type="reset" name="reset" id="reset">Borrar</button>
+            </div>
+            </div>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
