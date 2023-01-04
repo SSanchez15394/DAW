@@ -1,0 +1,68 @@
+{
+    "listadoPaises": {
+        "pais": [
+            {
+                "nombre": "España",
+                "capital": "Madrid",
+                "textoCapital": "La mejor capital del mundo",
+                "ciudades": [
+                    "Madrid",
+                    " Barcelona",
+                    " Valencia",
+                    " Sevilla",
+                    " Zaragoza",
+                    " Sevilla",
+                    " Zaragoza",
+                    " Malaga",
+                    " Murcia"
+                ]
+            },
+            {
+                "nombre": "México",
+                "capital": "México D.F.",
+                "textoCapital": "La Ciudad de México, Distrito Federal o, en su forma abreviada, México D.F., es...",
+                "ciudades": [
+                    " México D.F.",
+                    " Ecatepec",
+                    " Guadalajara",
+                    " Puebla",
+                    " Juárez",
+                    " Tijuana",
+                    " León",
+                    " Zapopan"
+                ]
+            },
+            {
+                "nombre": "Italia",
+                "capital": "Roma",
+                "textoCapital": "Coliseos, castillos, basílicas, pasta y pizza... ¿Qué más se puede pedir?",
+                "ciudades": [
+                    " Roma",
+                    " Florencia",
+                    " Venecia",
+                    " Verona",
+                    " Milán",
+                    " Nápoles",
+                    " Turín",
+                    " Pisa",
+                    " Palermo"
+                ]
+            },
+            {
+                "nombre": "Brasil",
+                "capital": "Río de Janeiro",
+                "textoCapital": "¡Viva los carnavales!",
+                "ciudades": [
+                    " Río de Janeiro",
+                    " Flamengo",
+                    " Sao Paulo",
+                    " Fortaleza",
+                    " Bezo Horizonte",
+                    " Salvador de Bahía",
+                    " Manaos",
+                    " Porto Alegre"
+                ]
+            }
+        ]
+    }
+}
