@@ -1,0 +1,49 @@
+body {
+    background-image: url(./assets/img/UK\ Blue\ Sky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    color: black;
+    padding: auto;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-size: 100% 400%;
+}
+
+form {
+    max-width: 400px;
+    padding: auto;
+    margin: 40px auto;
+    text-align: left;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+h4 {
+    color: #f1f1f1;
+}
+
+a,
+#exit {
+    color: gainsboro;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+a:active {
+    color: red;
+}
+
+#exit:hover {
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+#exit:active {
+    color: red;
+}
