@@ -15,7 +15,7 @@
     // CREAMOS VARIABLES Y CONECTAMOS CON LA BBDD 
     $db_connection = "mysql:host=localhost; dbname=alumnospdo";
     $username = "root";
-    $password = "root";
+    $password = "";
 
     try {
         $dsn = new PDO($db_connection, $username, $password);
