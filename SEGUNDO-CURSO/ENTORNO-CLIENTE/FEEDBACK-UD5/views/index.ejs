@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback 5 DEC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <h1 style="border: 15px black;">PLAZAS PARKING FEEDBACK 5</h1>
+    <div id="table-parking">
+        <div id="table-parking-grid">
+
+            <table
+                style="display: grid; grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;"
+                class="tableParking">
+
+                <%uno='1'%>
+                    <%dos='2'%>
+                        <%tres='3' %>
+                            <%cuatro='4'%>
+                                <%cinco='5'%>
+                                    <%seis='6'%>
+                                        <%siete='7'%>
+                                            <%ocho='8'%>
+                                                <%nueve='9'%>
+                                                    <%diez='10' %>
+                                                        <%once='11'%>
+                                                            <%doce='12'%>
+                                                                <%trece='13'%>
+                                                                    <%catorce='14'%>
+                                                                        <%quince='15'%>
+                                                                            <%dieciseis='16' %>
+                                                                                <%diecisiete='17'%>
+                                                                                    <%dieciocho='18'%>
+                                                                                        <%diecinueve='19'%>
+                                                                                            <%veinte='20'%>
+
+                                                                                                <tbody>
+                                                                                                    <h2 class="status"
+                                                                                                        style="text-align: center;">
+                                                                                                        PLAZAS OCUPADAS
+                                                                                                    </h2>
+                                                                                                    <%
+                                                                                                        vehiculo.forEach((result)=>
+                                                                                                        { %>
+
+                                                                                                        <%if(result.ocupadas==1){%>
+                                                                                                            <td
+                                                                                                                style="background-color: red;">
+                                                                                                                1</td>
+                                                                                                            <style>
+                                                                                                                .n1 {
+                                                                                                                    visibility: hidden;
+                                                                                                                }
+                                                                                                            </style>
+                                                                                                            <% } %>
+
+                                                                                                                <%if(result.ocupadas==2){%>
+                                                                                                                    <td
+                                                                                                                        style="background-color: red;">
+                                                                                                                        2
+                                                                                                                    </td>
+                                                                                                                    <style>
+                                                                                                                        .n2 {
+                                                                                                                            visibility: hidden;
+                                                                                                                        }
+                                                                                                                    </style>
+
+                                                                                                                    <% }
+                                                                                                                        %>
+                                                                                                                        <%if(result.ocupadas==3){%>
+                                                                                                                            <td
+                                                                                                                                style="background-color: red;">
+                                                                                                                                3
+                                                                                                                            </td>
+                                                                                                                            <style>
+                                                                                                                                .n3 {
+                                                                                                                                    visibility: hidden;
+                                                                                                                                }
+                                                                                                                            </style>
+                                                                                                                            <% }
+                                                                                                                                %>
+                                                                                                                                <%if(result.ocupadas==4){%>
+                                                                                                                                    <td
+                                                                                                                                        style="background-color: red;">
+                                                                                                                                        4
+                                                                                                                                    </td>
+                                                                                                                                    <style>
+                                                                                                                                        .n4 {
+                                                                                                                                            visibility: hidden;
+                                                                                                                                        }
+                                                                                                                                    </style>
+                                                                                                                                    <% }
+                                                                                                                                        %>
+                                                                                                                                        <%if(result.ocupadas==5){%>
+                                                                                                                                            <td
+                                                                                                                                                style="background-color: red;">
+                                                                                                                                                5
+                                                                                                                                            </td>
+                                                                                                                                            <style>
+                                                                                                                                                .n5 {
+                                                                                                                                                    visibility: hidden;
+                                                                                                                                                }
+                                                                                                                                            </style>
+                                                                                                                                            <% }
+                                                                                                                                                %>
+                                                                                                                                                <%if(result.ocupadas==6){%>
+                                                                                                                                                    <td
+                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                        6
+                                                                                                                                                    </td>
+                                                                                                                                                    <style>
+                                                                                                                                                        .n6 {
+                                                                                                                                                            visibility: hidden;
+                                                                                                                                                        }
+                                                                                                                                                    </style>
+                                                                                                                                                    <% }
+                                                                                                                                                        %>
+                                                                                                                                                        <%if(result.ocupadas==7){%>
+                                                                                                                                                            <td
+                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                7
+                                                                                                                                                            </td>
+                                                                                                                                                            <style>
+                                                                                                                                                                .n7 {
+                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                }
+                                                                                                                                                            </style>
+                                                                                                                                                            <% }
+                                                                                                                                                                %>
+                                                                                                                                                                <%if(result.ocupadas==8){%>
+                                                                                                                                                                    <td
+                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                        8
+                                                                                                                                                                    </td>
+                                                                                                                                                                    <style>
+                                                                                                                                                                        .n8 {
+                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                        }
+                                                                                                                                                                    </style>
+                                                                                                                                                                    <% }
+                                                                                                                                                                        %>
+                                                                                                                                                                        <%if(result.ocupadas==9){%>
+                                                                                                                                                                            <td
+                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                9
+                                                                                                                                                                            </td>
+                                                                                                                                                                            <style>
+                                                                                                                                                                                .n9 {
+                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                }
+                                                                                                                                                                            </style>
+                                                                                                                                                                            <% }
+                                                                                                                                                                                %>
+                                                                                                                                                                                <%if(result.ocupadas==10){%>
+                                                                                                                                                                                    <td
+                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                        10
+                                                                                                                                                                                    </td>
+                                                                                                                                                                                    <style>
+                                                                                                                                                                                        .n10 {
+                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                        }
+                                                                                                                                                                                    </style>
+                                                                                                                                                                                    <% }
+                                                                                                                                                                                        %>
+                                                                                                                                                                                        <%if(result.ocupadas==11){%>
+                                                                                                                                                                                            <td
+                                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                                11
+                                                                                                                                                                                            </td>
+                                                                                                                                                                                            <style>
+                                                                                                                                                                                                .n11 {
+                                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                                }
+                                                                                                                                                                                            </style>
+                                                                                                                                                                                            <% }
+                                                                                                                                                                                                %>
+                                                                                                                                                                                                <%if(result.ocupadas==12){%>
+                                                                                                                                                                                                    <td
+                                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                                        12
+                                                                                                                                                                                                    </td>
+                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                        .n12 {
+                                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                    <% }
+                                                                                                                                                                                                        %>
+                                                                                                                                                                                                        <%if(result.ocupadas==13){%>
+                                                                                                                                                                                                            <td
+                                                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                                                13
+                                                                                                                                                                                                            </td>
+                                                                                                                                                                                                            <style>
+                                                                                                                                                                                                                .n13 {
+                                                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            </style>
+                                                                                                                                                                                                            <% }
+                                                                                                                                                                                                                %>
+                                                                                                                                                                                                                <%if(result.ocupadas==14){%>
+                                                                                                                                                                                                                    <td
+                                                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                                                        14
+                                                                                                                                                                                                                    </td>
+                                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                                        .n14 {
+                                                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                                    <% }
+                                                                                                                                                                                                                        %>
+                                                                                                                                                                                                                        <%if(result.ocupadas==15){%>
+                                                                                                                                                                                                                            <td
+                                                                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                                                                15
+                                                                                                                                                                                                                            </td>
+                                                                                                                                                                                                                            <style>
+                                                                                                                                                                                                                                .n15 {
+                                                                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            </style>
+                                                                                                                                                                                                                            <% }
+                                                                                                                                                                                                                                %>
+                                                                                                                                                                                                                                <%if(result.ocupadas==16){%>
+                                                                                                                                                                                                                                    <td
+                                                                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                                                                        16
+                                                                                                                                                                                                                                    </td>
+                                                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                                                        .n16 {
+                                                                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                                                    <% }
+                                                                                                                                                                                                                                        %>
+                                                                                                                                                                                                                                        <%if(result.ocupadas==17){%>
+                                                                                                                                                                                                                                            <td
+                                                                                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                                                                                17
+                                                                                                                                                                                                                                            </td>
+                                                                                                                                                                                                                                            <style>
+                                                                                                                                                                                                                                                .n17 {
+                                                                                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                            </style>
+                                                                                                                                                                                                                                            <% }
+                                                                                                                                                                                                                                                %>
+                                                                                                                                                                                                                                                <%if(result.ocupadas==18){%>
+                                                                                                                                                                                                                                                    <td
+                                                                                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                                                                                        18
+                                                                                                                                                                                                                                                    </td>
+                                                                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                                                                        .n18 {
+                                                                                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                                                                    <% }
+                                                                                                                                                                                                                                                        %>
+                                                                                                                                                                                                                                                        <%if(result.ocupadas==19){%>
+                                                                                                                                                                                                                                                            <td
+                                                                                                                                                                                                                                                                style="background-color: red;">
+                                                                                                                                                                                                                                                                19
+                                                                                                                                                                                                                                                            </td>
+                                                                                                                                                                                                                                                            <style>
+                                                                                                                                                                                                                                                                .n19 {
+                                                                                                                                                                                                                                                                    visibility: hidden;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                            </style>
+                                                                                                                                                                                                                                                            <% }
+                                                                                                                                                                                                                                                                %>
+                                                                                                                                                                                                                                                                <%if(result.ocupadas==20){%>
+                                                                                                                                                                                                                                                                    td
+                                                                                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                                                                                    <td
+                                                                                                                                                                                                                                                                        style="background-color: red;">
+                                                                                                                                                                                                                                                                        20
+                                                                                                                                                                                                                                                                    </td>
+                                                                                                                                                                                                                                                                    <style>
+                                                                                                                                                                                                                                                                        .n20 {
+                                                                                                                                                                                                                                                                            visibility: hidden;
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                    </style>
+                                                                                                                                                                                                                                                                    <% }
+                                                                                                                                                                                                                                                                        %>
+
+
+                                                                                                </tbody>
+                                                                                                <% })%>
+            </table>
+
+            <table class="tableParking">
+                <tr class="free">
+                    <h2 class="status" style="text-align: center;">PLAZAS LIBRES</h2>
+                    <td class="n1">
+                        <%=uno%>
+                    </td>
+                    <td class="n2">
+                        <%=dos%>
+                    </td>
+                    <td class="n3">
+                        <%=tres%>
+                    </td>
+                    <td class="n4">
+                        <%=cuatro%>
+                    </td>
+                    <td class="n5">
+                        <%=cinco%>
+                    </td>
+                    <td class="n6">
+                        <%=seis%>
+                    </td>
+                    <td class="n7">
+                        <%=siete%>
+                    </td>
+                    <td class="n8">
+                        <%=ocho%>
+                    </td>
+                    <td class="n9">
+                        <%=nueve%>
+                    </td>
+                    <td class="n10">
+                        <%=diez%>
+                    </td>
+                    <td class="n11">
+                        <%=once%>
+                    </td>
+                    <td class="n12">
+                        <%=doce%>
+                    </td>
+                    <td class="n13">
+                        <%=trece%>
+                    </td>
+                    <td class="n14">
+                        <%=catorce%>
+                    </td>
+                    <td class="n15">
+                        <%=quince%>
+                    </td>
+                    <td class="n16">
+                        <%=dieciseis%>
+                    </td>
+                    <td class="n17">
+                        <%=diecisiete%>
+                    </td>
+                    <td class="n18">
+                        <%=dieciocho%>
+                    </td>
+                    <td class="n19">
+                        <%=diecinueve%>
+                    </td>
+                    <td class="n20">
+                        <%=veinte%>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div id="num-total">
+        <table class="num-plazas">
+            <thead>
+                <tr>
+                    <th colspan="2" id="distribution" style="text-shadow: 1px 1px 2px gainsboro;">
+                        DISTRIBUCIÓN PARKING
+                    </th>
+                </tr>
+                <tr>
+                    <th>PLAZAS IMPARES</th>
+                    <th>PLAZAS PARES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="P1" class="n1">1</td>
+                    <td id="P2" class="n2">2</td>
+                </tr>
+                <tr>
+                    <td id="P3" class="n3">3</td>
+                    <td id="P4" class="n4">4</td>
+                </tr>
+                <tr>
+                    <td id="P5" class="n5">5</td>
+                    <td id="P6" class="n6">6</td>
+                </tr>
+                <tr>
+                    <td id="P5" class="n7">7</td>
+                    <td id="P8" class="n8">8</td>
+                </tr>
+                <tr>
+                    <td id="P9" class="n9">9</td>
+                    <td id="P10" class="n10">10</td>
+                </tr>
+                <tr>
+                    <td id="P11" class="n11">11</td>
+                    <td id="P12" class="n12">12</td>
+
+                </tr>
+                <tr>
+                    <td id="P13" class="n13">13</td>
+                    <td id="P14" class="n14">14</td>
+                </tr>
+                <tr>
+                    <td id="P15" class="n15">15</td>
+                    <td id="P16" class="n16">16</td>
+                </tr>
+                <tr>
+                    <td id="P17" class="n17">17</td>
+                    <td id="P18" class="n18">18</td>
+                </tr>
+                <tr>
+                    <td id="P19" class="n19">19</td>
+                    <td id="P20" class="n20">20</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="records">
+            <form action="/checkIn" method="POST">
+                <h2 style="text-shadow: 1px 1px 2px gainsboro;">SELECCIONE UNA PLAZA </h2>
+                <%- include('checkIn') %>
+                    <%- include('checkOut') %>
+            </form>
+        </div>
+        <table class="parking-space">
+            <thead>
+                <tr style="text-shadow: 1px 1px 2px gainsboro;">
+                    <th>Nº PLAZA</th>
+                    <th>MARCA</th>
+                    <th>MODELO</th>
+                    <th>MATRICULA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% vehiculo.forEach((result)=>{ %>
+                    <tr>
+                        <td>
+                            <%= result.ocupadas %>
+                        </td>
+                        <td>
+                            <%= result.marca %>
+                        </td>
+                        <td>
+                            <%= result.modelo %>
+                        </td>
+                        <td>
+                            <%= result.matricula %>
+                        </td>
+                    </tr>
+                    <% })%>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
