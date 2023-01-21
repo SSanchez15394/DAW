@@ -1,0 +1,28 @@
+EXPLICACIÓN SOBRE COMO FUNCIONA MI APP DEL FEEDBACK 5 DE DEC:
+
+Mi aplicación en principio se iba a parecer bastante al feedback que hicimos de las imágenes pares e impares 
+pero consideré que era repetir el mismo feedback pero utilizando NODE JS así que plantee una manera distinta:
+
+En mi aplicación tenemos las plazas disponibles y ocupadas en dos partes:
+-Una donde se aprecian con colores las libres y ocupadas.
+-Otra dividida en 2 columnas donde aparecen las pares e impares y sería como un modelo de la distribución 
+de las plazas visto desde arriba.
+
+(Finalmente no me decidí por una concreta, porque también pensé en publicar dos png de vehículos en verde y rojo 
+pero al ser una aplicación web consideré que esa idea sería mejor en una app móvil).
+
+Luego en el lado derecho se visualizan las plazas que están ocupadas y el vehículo que está allí concretamente
+(deje visible los campos matrícula, coche y modelo porque lo pide el feedback pero en la vida real no vería muy seguro
+que todo el mundo pueda ver que tipos de coches ahí dentro de un parking por evitar posibles robos 
+y demás conflictos más que nada. Por mi parte con solamente poner el nº de plaza que está ocupada sería suficiente).
+
+1) Tenemos un formulario en donde se pide al usuario que introduzca: matrícula, marca y modelo de se vehículo y 
+después seleccione una plaza libre.
+2) Después abajo tenemos otro formulario en donde habría que introducir los datos del vehículo que deseamos retirar 
+para que vuelva a quedar disponible dicha plaza.
+
+He dejado unos cuantos modelos de vehículos ya registrados para que se vea que la conexión con la base de datos 
+funciona correctamente. 
+
+Podremos comprobar que podemos sacar tantos los vehículos ya guardados como podremos añadir nuevos vehículos 
+hasta completar las 20 plazas disponibles.
